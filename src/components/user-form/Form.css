@@ -1,0 +1,143 @@
+.form__group{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 800px;
+    width: calc(100% - 64px);
+    margin: 16px auto;
+    color:white;
+    text-shadow: 0px 2px 4px  black;
+    
+    padding: 16px;
+    background-color: rgba(12, 150, 44, 0.897);
+    margin-top: -20px;
+}
+.form__group h1{
+    width: 100%;
+    text-align: center;
+}
+
+.form-input{
+    margin-top: 8px;
+}
+
+.form__group__label{
+    font-size: 19px;
+    font-weight: 500px;
+    color: rgb(75, 72, 72);   
+}
+
+.form__group__input{
+    border: 1px solid #AAAA;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    height: 36px;
+    width: calc( 100% - 40px);
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.ground-radio label {
+    margin-left: 10px;
+}
+
+.form__group__number input{
+    width: 600px;
+}
+
+.form__group__number {
+    margin-bottom: 10px;
+}
+
+.Checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px; 
+    color:rgb(4, 62, 120);
+}
+.Checkbox label {
+    margin-left: 10px;
+}
+strong {
+    font-size: 19px;
+    color:white; 
+}
+
+.form__group .radio input{
+    
+    font-size: 19px; 
+    color: rgb(4, 62, 120) ;
+    margin-bottom: 5px;
+}
+.form__group .radio {
+    font-size: 19px; 
+    color:white ;
+}
+.Carteira__Assinada{
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+.cor__strong {
+color: rgb(4, 62, 120);
+}
+
+.income{
+    margin-top: 30px;
+}
+
+input{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-button { 
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto 0;
+    padding: 10px;
+
+    background-color: #0473b8;
+    border-radius: 10px;
+    border: unset;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+
+    text-transform: uppercase;
+    outline: unset;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px  black;
+}
+
+.submit-button:hover{
+    background-color: #1da1f2; 
+    font-size:17px ;
+    box-shadow: 1px 1px 2px 1px black;
+    padding: 10px;
+    color: black;
+    text-shadow: 0px 2px 4px  black;
+    
+}
+.submit-button:active{
+    background-color:#0473b8; 
+    font-size:20px ;
+    box-shadow: 1px 1px 2px 1px black;
+    text-shadow: 0px 2px 4px  black;
+    padding: 12px;
+    color: black;
+    
+}
+
+.submit-button strong{
+    color: white;
+}
+
+
+
+
+
+
+
