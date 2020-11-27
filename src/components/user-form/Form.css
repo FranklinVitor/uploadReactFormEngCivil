@@ -5,17 +5,15 @@
     max-width: 800px;
     width: calc(100% - 64px);
     margin: 16px auto;
-    color:white;
-    text-shadow: 0px 2px 4px  black;
-    
-    padding: 16px;
-    background-color: rgba(12, 150, 44, 0.897);
     margin-top: -20px;
+    padding: 16px;
+
+    color:white;
+    text-shadow: 0px 2px 4px  rgb(6, 83, 27);
+    background-color: rgba(12, 150, 44, 0.897);
+    
 }
-.form__group h1{
-    width: 100%;
-    text-align: center;
-}
+
 
 .form-input{
     margin-top: 8px;
@@ -28,16 +26,19 @@
 }
 
 .form__group__input{
-    border: 1px solid #AAAA;
-    border-radius: 8px;
+    border: 2px solid rgb(6, 83, 27);
+    border-radius:5px;
     background-color: #ffffff;
+
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     
-    height: 36px;
+    height: 36px;   
     width: calc( 100% - 40px);
+
     padding: 0 20px;
-    margin-top: 10px;
+    margin-top: 16px;
+    
 }
 
 .ground-radio label {
@@ -46,10 +47,6 @@
 
 .form__group__number input{
     width: 600px;
-}
-
-.form__group__number {
-    margin-bottom: 10px;
 }
 
 .Checkbox {
@@ -67,8 +64,6 @@ strong {
 }
 
 .form__group .radio input{
-    
-    font-size: 19px; 
     color: rgb(4, 62, 120) ;
     margin-bottom: 5px;
 }
@@ -80,16 +75,13 @@ strong {
     cursor: pointer;
     margin-bottom: 1%;
 }
-.cor__strong {
-color: rgb(4, 62, 120);
-}
 
 .income{
     margin-top: 30px;
 }
 
 input{
-    font-size: 15px;
+    font-size: 15%;
     font-family: Arial, Helvetica, sans-serif;
 }
 

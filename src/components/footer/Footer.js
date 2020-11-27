@@ -8,10 +8,12 @@ const footer = () => {
             <div className="footer__social">
            <p> <strong>CLEUBER JÚNIOR</strong></p>
            <p className="eng">Engenheiro Civil</p>
+           <p className="eng"><small> RNP 2618827066 / CREA SP</small></p>
                
             </div>
 
-            <small className="footer__copyright">cleuberjr-engenheiro@Gmail.com </small>
+            <small className="footer__copyright">CJENGENHARIAPI@HOTMAIL.COM </small>
+            
             
             
             

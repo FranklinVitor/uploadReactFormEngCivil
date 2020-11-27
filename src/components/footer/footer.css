@@ -1,51 +1,12 @@
-/*.footer{
-    height: 25%;
-    width: 100% ;
-    margin-top: -16px;
-    background-color: rgb(9, 134, 38);
-    color:  rgb(255, 255, 255);
-    
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-
-    position: relative;
-}
-
-.footer__social{
-    width: 100%;
-    padding: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.footer__copyright {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    text-align: center;
-    color:white;
-}
-.eng{
-    margin-top: -20px;
-    margin-bottom: 15px;
-
-}
-
-
-*/
 .footer{
     height: 25%;
     width: 100% ;
     margin-top: -18px;
+
     background-color: rgb(6, 83, 27);
     color:  rgb(255, 255, 255);
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,6 +17,7 @@
 .footer__social{
     width: 100%;
     padding: 8px;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;

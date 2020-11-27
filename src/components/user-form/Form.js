@@ -1,10 +1,33 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect} from 'react'
 import "./Form.css"
 import InputMask from 'react-input-mask';
 import CurrencyInput from 'react-currency-input'
+import emailjs from "emailjs-com"
 
 export function Form() {
     const [state, setState] = useState({})
+
+    useEffect(() => {
+        emailjs.init("user_BgXWqgkz0Ko8xjhnWrqGR")
+      }, [])
+
+      function sendEmail(){console.log(state)
+        emailjs.send('service_3uk7ay9', 'template_35pua8e', {
+            to_name: "André",
+            from_name:"Franklin",
+            message:"Oi",
+            ...state,
+            wallet: state.wallet?"Sim": "Não",
+
+            
+        })
+        .then(function() {
+            alert("Formulário enviado com sucesso, em breve entraremos em contato.")
+            window.location.reload();
+        }, function(error) {
+            console.log('FAILED...', error);
+        });
+      }
 
     return (
         <form className="form__group">
@@ -46,7 +69,7 @@ export function Form() {
                     <p> <strong>Modalidade:</strong> </p>
                     <input
                         type="radio"
-                        value="own-ground"
+                        value="Construção em terreno próprio"
                         id="not-buy"
                         name="ramp"
                         onChange={({ target }) => setState({ ...state, ground: target.value })}
@@ -58,7 +81,7 @@ export function Form() {
                 </div>
                 <div>
                     <input type="radio"
-                        value="buy-ground"
+                        value="Compra de terreno e construção"
                         name="ramp"
                         id="buy"
                         onChange={({ target }) => setState({ ...state, ground: target.value })}
@@ -105,7 +128,7 @@ export function Form() {
             <button
                 type="button"
                 className="submit-button btn"
-                onClick={() => console.log(state)}
+                onClick={() => sendEmail()}
 
             >
                 <strong > ENVIAR</strong>
