@@ -106,7 +106,7 @@ export function Form() {
                     required />
                 <p ><small>
                     * Rendas maiores possibilitam um crédito maior,
-                    se sua renda for menor que dois salárior mínimos
+                    se sua renda for menor que dois salário mínimos
                     você pode financiar com outra pessoa, mesmo
                     sem nenhum vínculo com esse novo fiador.
                         </small>
